@@ -223,18 +223,12 @@ ul.main-menu > li:hover ul.sub-menu {
     color: black;
 }
 
-.hide_form{
-    position: absolute;
-    height: 300px;
-    width: 300px;
-    background-color: rgb(0 , 0 , 0 ,0.7)
-    margin-left: 300px;
-}
+
 /*BOTTTOM*/
 
 /*FOOTER*/
 footer {
-    
+    position: absolute;
     width: 100%;
     height: inherit;
     left: 0;

@@ -66,16 +66,6 @@
      
 </form>
 
- <div class="hide_form">
-    <form id="subscibe_form">
-        <input type="text" name="">
-        <input type="text" name="">
-        <input type="text" name="">
-        
-    </form>
- 
- </div>   
-
 
 <div class="bottom_wrap">
     <div class="block1">
