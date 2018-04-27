@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica LT Std Light";
+    color: white;
+    font-weight: normal;
+}
+
+body {
+    background-image: url("../img/bgcimg.jpg");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/*HEADER*/
+.logo {
+    margin-top: 3%;
+    width: 100%;
+    text-align: center;
+    font-size: 5vmin;
+
+    /*HEADER*/
+}
+
+/*SIDEBAR*/
+
+nav{
+    position: fixed;
+    margin-left: 7%;
+    height: 100%;
+    margin-top: 8%;
+
+
+}
+
+.menu {
+
+    font-size: 1.5vmin;
+
+}
+
+.column {
+    margin-top: 60%;
+
+}
+
+/*SIDEBAR*/
+
+/*SIGNUP*/
+.sign {
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 1.5vmin;
+
+}
+
+.sign h3 {
+    word-spacing: 10px;
+}
+
+.input_s {
+    background: rgba(0, 0, 0, 0.7);
+    width: 200px;
+    height: 15px;
+    padding: 4px;
+    font-size: 2vmin;
+    border: solid 0.1px;
+    text-align: center;
+
+}
+
+.submit_button {
+    margin-top: 1%;
+    height: 23px;
+    color: black;
+    width: 60px;
+    font-size: 2vmin;
+    border: none 0.1px;
+    background-color: #fff;
+    
+    
+}
+
+.submit_button:hover{
+    background-color: black;
+    color: white;
+    border: solid 0.1px;
+    transition: 0.5s linear;
+}
+
+#falls_email {
+    margin-top: 1%;
+    position: absolute;
+}
+
+#falls_email p {
+
+    color: gray;
+    font-size: 1.5vmin;
+    width: 200px;
+    text-align: center;
+
+}
+
+/*SIGNUP*/
+
+/*BOTTTOM*/
+.bottom_wrap {
+    margin-top: 8%;
+
+    margin-left: 40%;
+    margin-bottom: 5%;
+    
+}
+
+.block1 {
+    display: inline-block;
+    width: 144px;
+    height: 144px;
+    font-size: 2vmin;
+    border: solid 3px;
+}
+
+.block2 {
+
+    display: inline-block;
+    height: 150px;
+    width: 150px;    
+    font-size: 2vmin;
+    margin-left: 10px;
+    vertical-align: top;
+
+}
+
+.block2 button {
+    height: 21.5px;
+    color: black;
+    width: 150px;
+    font-size: 2vmin;
+    border: none 0.1px;
+    background-color: #fff;
+
+
+}
+
+.name_album {
+    margin-top: 110px;
+    font-size: 1.7vmin;
+    text-align: center
+    
+
+    
+
+
+}
+
+
+.main-menu {
+    list-style: none;
+    width: 25vmin;
+    position: relative;
+}
+.main-menu li .sub-menu{
+    position: absolute;
+    bottom: 100%;
+}
+.sub-menu {
+    font-size: 2vmin;
+
+    list-style: none;
+    display: none;
+    background-color: black;
+    color: white;
+    width: 150px;
+    text-align: center;
+
+
+
+}
+
+
+.sub-menu li {
+    border: solid 0.1vmin;
+    height: 3.2vmin;
+
+
+
+}
+
+ul.main-menu:hover button {
+    background-color: black;
+    color: white;
+    border: solid 0.1vmin;
+    transition: 0.5s linear;
+
+}
+
+ul.main-menu > li:hover ul.sub-menu {
+    display: block;
+    transition: 2s linear;
+
+}
+
+.sub-menu > li:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s linear;
+    border:0.1vmin  white solid;
+
+
+}
+
+.sub-menu > li:hover a {
+    color: black;
+}
+
+.hide_form{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0 , 0 , 0 ,0.7)
+    margin-left: 300px;
+}
+/*BOTTTOM*/
+
+/*FOOTER*/
+footer {
+    
+    width: 100%;
+    height: inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 1%;
+
+
+
+}
+
+
+.soc{
+    font-size: 150%;
+    word-spacing: 3vmin;
+    margin-bottom:1%;
+    text-align: center;
+
+
+}
+
+.soc li {
+    width: 100%;
+}
+
+.def {
+    text-align: center;
+    font-size: 1.3vmin;
+
+}
+
+/*FOOTER*/
+
+/*ШРИФТЫ*/
+@font-face {
+
+    font-family: "Helvetica LT Std Light";
+
+    src: url("../fonts/HelveticaLTStd-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*ШРИФТЫ*/
