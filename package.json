@@ -1,0 +1,25 @@
+{
+  "name": "xwl",
+  "version": "1.0.0",
+  "description": "my site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodwest/xwl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nodwest/xwl/issues"
+  },
+  "homepage": "https://github.com/nodwest/xwl#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-sass": "^4.0.1"
+  }
+}
