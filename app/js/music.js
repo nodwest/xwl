@@ -23,7 +23,7 @@ btn_o2 = document.getElementById('el2');
 btn_o3 = document.getElementById('el3');
 
 
-function order_position() {
-	document.getElementById('albums_box').style.order = 4;	
 
+function show_album(){
+	document.getElementById('btn_el3').textContent = "HIDE";
 }

@@ -115,7 +115,9 @@
 		<div class="logo_content-1">
 			<div class="genre">
 				<div class="name_genre">
-					<a href=""`><h1>MORE</h1></a>
+					<a href="" `>
+						<h1>MORE</h1>
+					</a>
 				</div>
 
 			</div>
@@ -130,17 +132,17 @@
 
 		<div class="content-2">
 
-			
-				<div class="genre">
-						<div class="name_genre">
-							<h1>
-								<h1>ALBUMS</h1>
-							</h1>
-						</div>
-					</div>
+
+			<div class="genre">
+				<div class="name_genre">
+					<h1>
+						<h1>ALBUMS</h1>
+					</h1>
+				</div>
+			</div>
 
 			<div class="albums">
-				<div class="albums_box el1">
+				<div class="albums_box el1" id="el1">
 					<div class="img_box">
 						<img src="../img/album_img/3.jpg" alt="">
 					</div>
@@ -156,7 +158,7 @@
 					</div>
 				</div>
 
-				<div class="albums_box el2">
+				<div class="albums_box el2" id="el2">
 					<div class="img_box">
 						<img src="../img/album_img/4.jpg" alt="">
 					</div>
@@ -166,13 +168,13 @@
 							<button>NAME</button>
 						</div>
 						<div class="play_track ib1">
-							<button onclick="order_position()">SHOW</button>
+							<button id="btn_el2" onclick="order_position()">SHOW</button>
 						</div>
 
 					</div>
 				</div>
 
-				<div class="albums_box el3" >
+				<div class="albums_box " id="el3">
 					<div class="img_box">
 						<img src="../img/album_img/2.jpg" alt="">
 					</div>
@@ -182,7 +184,7 @@
 							<button>NAME</button>
 						</div>
 						<div class="play_track ib1">
-							<button id="bt_play" onclick="order_position()">SHOW</button>
+							<button id="btn_el3" onclick="show_album()">SHOW</button>
 						</div>
 
 					</div>
@@ -194,16 +196,151 @@
 			<br>
 		</div>
 
+		<div class="content_album3">
+			<div class="genre">
+				<div class="name_genre">
+					<h1>
+						<h1>BLISS OUT</h1>
+					</h1>
+				</div>
+			</div>
+
+			<div class="tracks">
+				<div class="track_center">
+					<div class="track_list1">
+						<div class="track">
+							<button>
+								<i class="fas fa-play-circle"></i>
+							</button>
+							<label for="">LYTH:</label>
+							<label id="name_track">Slow Decay </label>
+
+						</div>
+						<div class="track">
+							<button>
+								<i class="fas fa-play-circle"></i>
+							</button>
+							<label for="">LYTH:</label>
+							<label id="name_track">Embris </label>
+
+						</div>
+						<div class="track">
+							<button>
+								<i class="fas fa-play-circle"></i>
+							</button>
+							<label for="">LYTH:</label>
+							<label id="name_track">Flying Roofs </label>
+
+						</div>
+						<div class="track">
+							<button>
+								<i class="fas fa-play-circle"></i>
+							</button>
+							<label for="">LYTH:</label>
+							<label id="name_track">Bliss Out </label>
+
+						</div>
+						<div class="track">
+							<button>
+								<i class="fas fa-play-circle"></i>
+							</button>
+							<label for="">LYTH:</label>
+							<label id="name_track">World</label>
+
+						</div>
+					</div>
+
+					<div class="track_list2">
+						<div class="track">
+							<button>
+								<i class="fas fa-play-circle"></i>
+							</button>
+							<label for="">LYTH:</label>
+							<label id="name_track">Particles </label>
+
+						</div>
+						<div class="track">
+							<button>
+								<i class="fas fa-play-circle"></i>
+							</button>
+							<label for="">LYTH:</label>
+							<label id="name_track">I x prologo </label>
+
+						</div>
+						<div class="track">
+							<button>
+								<i class="fas fa-play-circle"></i>
+							</button>
+							<label for="">LYTH:</label>
+							<label id="name_track">Structure </label>
+
+						</div>
+						<div class="track">
+							<button>
+								<i class="fas fa-play-circle"></i>
+							</button>
+							<label for="">LYTH:</label>
+							<label id="name_track">Death </label>
+
+						</div>
+						<div class="track">
+							<button>
+								<i class="fas fa-play-circle"></i>
+							</button>
+							<label for="">LYTH:</label>
+							<label id="name_track">Coldness</label>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="center_get">
+				<div class="menuuu">
+					<div class="menuuu1">
+						<ul class="main-menu">
+							<li>
+								<button class="btn_get"> GET IT NOW</button>
+
+								<ul class="sub-menu">
+									<li>
+										<a href="">APPLE MUSIC</a>
+									</li>
+									<li>
+										<a href="">ITUNES</a>
+									</li>
+									<li>
+										<a href="">SPOTIFY</a>
+									</li>
+									<li>
+										<a href="">TIDAL</a>
+									</li>
+									<li>
+										<a href="">GOOGLE PLAY</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 
 
-	
+
+		</div>
+
+
+
+
 
 
 
 		<div class="foot">
 			s
 		</div>
-<script src="../js/music.js"></script>
+		<script src="../js/music.js"></script>
 </body>
 
 </html>
