@@ -48,7 +48,7 @@ a {
 
 .submit_button {
   margin-top: 1%;
-  height: 23px;
+  height: 25px;
   color: black;
   width: 60px;
   font-size: 2vmin;
@@ -142,13 +142,11 @@ ul.main-menu > li:hover ul.sub-menu {
     color: black; }
 
 footer {
-  position: absolute;
   width: 100%;
   height: inherit;
   left: 0;
   bottom: 0;
-  width: 100%;
-  margin-bottom: 1%; }
+  width: 100%; }
 
 .soc {
   font-size: 150%;
@@ -263,3 +261,6 @@ footer {
     color: white;
     border: solid 0.1px;
     transition: 0.5s linear; }
+
+.email_2 {
+  display: none; }

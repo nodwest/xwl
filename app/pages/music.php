@@ -18,7 +18,7 @@
 	<? include_once "top_menu.php"; ?>
 
 		<div class="slider">
-
+s
 		</div>
 
 		<div class="logo_content-1">
@@ -151,9 +151,11 @@
 						<div class="nametrack ib1">
 							<button>NAME</button>
 						</div>
+						<a class="go_to" href="#c_a_1">
 						<div class="play_track ib1">
-							<button onclick="order_position()">SHOW</button>
+							<button id="btn_el1" onclick="show_album1()">SHOW</button>
 						</div>
+						</a>
 
 					</div>
 				</div>
@@ -167,10 +169,11 @@
 						<div class="nametrack ib1">
 							<button>NAME</button>
 						</div>
+						<a class="go_to" href="#c_a_2">
 						<div class="play_track ib1">
-							<button id="btn_el2" onclick="order_position()">SHOW</button>
+							<button id="btn_el2" onclick="show_album2()">SHOW</button>
 						</div>
-
+						</a>
 					</div>
 				</div>
 
@@ -183,9 +186,11 @@
 						<div class="nametrack ib1">
 							<button>NAME</button>
 						</div>
+						<a class="go_to" href="#c_a_3">
 						<div class="play_track ib1">
 							<button id="btn_el3" onclick="show_album()">SHOW</button>
 						</div>
+						</a>
 
 					</div>
 				</div>
@@ -196,8 +201,8 @@
 			<br>
 		</div>
 
-		<div class="content_album3">
-			<div class="genre">
+		<div class="content_album3" id="c_a_3">
+			<div class="genre" >
 				<div class="name_genre">
 					<h1>
 						<h1>BLISS OUT</h1>
@@ -209,7 +214,7 @@
 				<div class="track_center">
 					<div class="track_list1">
 						<div class="track">
-							<button>
+							<button onclick="a_play_music()" id="a_btn1">
 								<i class="fas fa-play-circle"></i>
 							</button>
 							<label for="">LYTH:</label>
@@ -331,16 +336,284 @@
 
 		</div>
 
-
-
-
-
-
-
-		<div class="foot">
-			s
+<!-- ALBUM2 -->
+<div class="content_album2" id="c_a_2">
+	<div class="genre" >
+		<div class="name_genre">
+			<h1>
+				<h1>SPACE A ROUND</h1>
+			</h1>
 		</div>
-		<script src="../js/music.js"></script>
+	</div>
+
+	<div class="tracks">
+		<div class="track_center">
+			<div class="track_list1">
+				<div class="track">
+					<button onclick="a_play_music()" id="a_btn1">
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">Slow Decay </label>
+
+				</div>
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">Embris </label>
+
+				</div>
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">Flying Roofs </label>
+
+				</div>
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">Bliss Out </label>
+
+				</div>
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">World</label>
+
+				</div>
+			</div>
+
+			<div class="track_list2">
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">Particles </label>
+
+				</div>
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">I x prologo </label>
+
+				</div>
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">Structure </label>
+
+				</div>
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">Death </label>
+
+				</div>
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">Coldness</label>
+
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="center_get">
+		<div class="menuuu">
+			<div class="menuuu1">
+				<ul class="main-menu">
+					<li>
+						<button class="btn_get"> GET IT NOW</button>
+
+						<ul class="sub-menu">
+							<li>
+								<a href="">APPLE MUSIC</a>
+							</li>
+							<li>
+								<a href="">ITUNES</a>
+							</li>
+							<li>
+								<a href="">SPOTIFY</a>
+							</li>
+							<li>
+								<a href="">TIDAL</a>
+							</li>
+							<li>
+								<a href="">GOOGLE PLAY</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+</div>
+<!-- ALBUM2 -->
+
+<!-- ALBUM1 -->
+<div class="content_album1" id="c_a_1">
+	<div class="genre" >
+		<div class="name_genre">
+			<h1>
+				<h1>SPACE A ROUND</h1>
+			</h1>
+		</div>
+	</div>
+
+	<div class="tracks">
+		<div class="track_center">
+			<div class="track_list1">
+				<div class="track">
+					<button onclick="a_play_music()" id="a_btn1">
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">Slow Decay </label>
+
+				</div>
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">Embris </label>
+
+				</div>
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">Flying Roofs </label>
+
+				</div>
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">Bliss Out </label>
+
+				</div>
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">World</label>
+
+				</div>
+			</div>
+
+			<div class="track_list2">
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">Particles </label>
+
+				</div>
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">I x prologo </label>
+
+				</div>
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">Structure </label>
+
+				</div>
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">Death </label>
+
+				</div>
+				<div class="track">
+					<button>
+						<i class="fas fa-play-circle"></i>
+					</button>
+					<label for="">LYTH:</label>
+					<label id="name_track">Coldness</label>
+
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="center_get">
+		<div class="menuuu">
+			<div class="menuuu1">
+				<ul class="main-menu">
+					<li>
+						<button class="btn_get"> GET IT NOW</button>
+
+						<ul class="sub-menu">
+							<li>
+								<a href="">APPLE MUSIC</a>
+							</li>
+							<li>
+								<a href="">ITUNES</a>
+							</li>
+							<li>
+								<a href="">SPOTIFY</a>
+							</li>
+							<li>
+								<a href="">TIDAL</a>
+							</li>
+							<li>
+								<a href="">GOOGLE PLAY</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+</div>
+<!-- ALBUM1 -->
+
+
+
+<? include_once "m_footer.php"; ?>
 </body>
 
+<script src="../js/music.js"></script>
 </html>

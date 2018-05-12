@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,9 +9,9 @@
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="css/top_menu_formusic.css">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-  <script src="ajax.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+   
 </head>
 
 
@@ -20,11 +21,25 @@
 
     <script type="text/javascript">
         var r = /^\w+@\w+\.\w{2,4}$/i; 
+        
+
 
         function yea() {
             var email, p, r;
             r = /^\w+@\w+\.\w{2,4}$/i;
+            var danie = $("#form1").serialize();
 
+// $("#form1").click(function(){
+//     $.ajax({
+//         url: "include/database.php",
+//         type: "POST",
+//         data:danie,
+//         success: function(data) {
+
+//         }
+        
+// });
+// });
 
 
             email = document.getElementById('em').value;
@@ -56,7 +71,7 @@
         <div class="sign">
             <h3>STAY UP TO DATE WITH </h3>
             <h3> L Y T H. SIGN UP BELOW</h3>
-            <input class="input_s" type="text" name="Email" placeholder=" INTER EMAIL" id="em">
+            <input class="input_s" type="text"  placeholder=" INTER EMAIL" id="em">
             <input class="submit_button" type="button" value="JOIN" onclick="yea()">
             <div id="falls_email">
                 <p id="vivod">  </p>
@@ -67,7 +82,6 @@
 
 
     </form>
-
 
     <div class="bottom_wrap" id="b_wrap">
         <div class="block1">
@@ -97,7 +111,5 @@
     </div>
 
 <? include_once "pages/form.php"; ?>
-</body>
-
 <? include_once 'pages/m_footer.php'; ?>
 </html>

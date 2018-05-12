@@ -1,5 +1,5 @@
 
-
+ <script src="js/form.js"></script>
 <!-- Скрытая форма -->
 <div class="background_form" id="form_valid12">
     <div class="forma_sign_valid" >
@@ -17,8 +17,12 @@
                         <h5>COUNTRY</h5>
                         <select name="country1" id="country">
                             <option value="0" class="opt">YOUR CONTRY</option>
-                            <option value="2" class="opt">1</option>
-                            <option value="3" class="opt">1</option>
+                            <option value="2" class="opt">RUSSIAN</option>
+                            <option value="3" class="opt">USA</option>
+                            <option value="3" class="opt">China</option>
+                            <option value="3" class="opt">China</option>
+                            <option value="3" class="opt">UK</option>
+                            <option value="3" class="opt">Turkey</option>
                         </select>
                     </div>
 
@@ -30,11 +34,41 @@
                         <h5>BIRTHDAY</h5>
                         <select name="mounth1" id="mounth">
                             <option value="0">MOUNTH</option>
+                            <option value="1">January</option>
+                            <option value="1">February</option>
+                            <option value="1">March</option>
+                            <option value="1">April</option>
+                            <option value="1">May</option>
                             <option value="1">June</option>
+                            <option value="1">July</option>
+                            <option value="1">August</option>
+                            <option value="1">September</option>
+                            <option value="1">October</option>
+                            <option value="1">November</option>
+                            <option value="1">December</option>
                         </select>
                         <select name="date1" id="date" style="margin-left: 11.89%;">
                             <option value="0">DATE</option>
                             <option value="1">1</option>
+                            <option value="1">2</option>
+                            <option value="1">3</option>
+                            <option value="1">4</option>
+                            <option value="1">5</option>
+                            <option value="1">6</option>
+                            <option value="1">7</option>
+                            <option value="1">8</option>
+                            <option value="1">9</option>
+                            <option value="1">10</option>
+                            <option value="1">11</option>
+                            <option value="1">12</option>
+                            <option value="1">13</option>
+                            <option value="1">14</option>
+                            <option value="1">15</option>
+                            <option value="1">16</option>
+                            <option value="1">17</option>
+                            <option value="1">18</option>
+                            <option value="1">19</option>
+                            <option value="1">20</option>
                         </select>
                     </div>
 
@@ -42,98 +76,20 @@
                         <input type="checkbox" class="checkbox" id="checkbox" name="checkbox1" >
                         <h5>SIGN ME UP TO DISCOVER MORE ARTISTS X W L!</h5>
                     </div>
-
+                    <input type="text" id="emaaail1" name="email" class="email_2">
                     <button  id="send" class= "btn_form" type="button" onclick="valid_form_signup()">SUBMIT</button>
-                     <div id="result_form"> asdds</div>
+
 
                 </div>
+                   
             </form>
         </div>
     </div>
 </div>
 <!-- Скрытая форма -->
  
-<script>
-    function valid_form_signup(){
-        var ps = document.getElementById('postal_code');
-        var count = document.getElementById('country');
-        var fs= document.getElementById('firstname');
-        var mounth= document.getElementById('mounth');
-        var date= document.getElementById('date');
-        var  checkbox= document.getElementById('checkbox');
-        var fall = true;
+<?php 
+// require_once 'include/database.php';
+?>
 
-        if (!ps.value || ps.value == " ") {
-            ps.style.border = "1px solid red";
-            fall = false;
-
-        }
-        else{
-            ps.style.border = "1px solid white";
-        }
-
-
-
-        if (count.value == 0) {
-            count.style.border = "1px solid red";
-            fall = false;
-        }
-
-        else{
-           count.style.border = "1px solid white";
-       }
-
-       if (!fs.value || fs.value == " ") {
-        fs.style.border = "1px solid red";
-        fall = false;
-    }
-
-    else{
-       fs.style.border = "1px solid white";
-   }
-
-
-   if (mounth.value == 0) {
-    mounth.style.border = "1px solid red";
-    fall = false;
-}
-
-else{
-    mounth.style.border = "1px solid white";
-}
-
-if (date.value == 0) {
-    date.style.border = "1px solid red";
-    fall = false;
-}
-else{
-   date.style.border = "1px solid white";
-}
-
-if (checkbox.checked){
-    alert("Osas");
-}
-
-if (fall == true) {
-
-
-
-
-}
-
-
-
-}
-
-function ty() {
-   document.getElementById('form_valid12').style.display= "none";
-   document.getElementById('thu').style.display = "block";
-   document.getElementById('b_wrap').style.display = "block";
-
-}
-
- 
-</script>
-
- <script src="ajax.js"></script>
 
