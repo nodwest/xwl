@@ -15,7 +15,7 @@
     <div class="column_top"><a href="">
             <h3>VIDEOS</h3>
         </a></div>
-    <div class="column_top"><a href="">
+    <div class="column_top"><a href="/app/pages/tour.php">
             <h3>TOUR</h3>
         </a></div>
     <div class="column_top ct-4" ><a href="">

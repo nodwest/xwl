@@ -4,6 +4,7 @@
 		echo 'Ошибка в подключении к базе данных';
 		exit();
 	}
+	$link = mysqli_connect ("localhost", "nodwest", "123", "nodwest_app");
 	$postal_code = trim($_POST['postal_code1']);
 	$firstname = trim($_POST['firstname1']);
 	$date = trim($_POST['date1']);
@@ -13,4 +14,5 @@
 	// ВСТАВКА В БАЗУ ДАННЫХ;
 	$query = "INSERT INTO users VALUES('$firstname','$postal_code','$country','$mounth','$date','$email')";
 	$mysqli->query($query);
+
 ?>

@@ -112,23 +112,7 @@ s
 			<br>
 		</div>
 
-		<div class="logo_content-1">
-			<div class="genre">
-				<div class="name_genre">
-					<a href="" `>
-						<h1>MORE</h1>
-					</a>
-				</div>
 
-			</div>
-			<div class="genre_info">
-				<div class="info">
-					<button class=" btn_more">CLICK HERE</button>
-				</div>
-			</div>
-
-
-		</div>
 
 		<div class="content-2">
 
@@ -162,7 +146,7 @@ s
 
 				<div class="albums_box el2" id="el2">
 					<div class="img_box">
-						<img src="../img/album_img/4.jpg" alt="">
+						<img src="../img/bgcf5.jpg" alt="">
 					</div>
 
 					<div class="info_box">
@@ -201,7 +185,7 @@ s
 			<br>
 		</div>
 
-		<div class="content_album3" id="c_a_3">
+		<div class="content_album3 al" id="c_a_3">
 			<div class="genre" >
 				<div class="name_genre">
 					<h1>
@@ -337,7 +321,7 @@ s
 		</div>
 
 <!-- ALBUM2 -->
-<div class="content_album2" id="c_a_2">
+<div class="content_album2 al" id="c_a_2">
 	<div class="genre" >
 		<div class="name_genre">
 			<h1>
@@ -474,7 +458,7 @@ s
 <!-- ALBUM2 -->
 
 <!-- ALBUM1 -->
-<div class="content_album1" id="c_a_1">
+<div class="content_album1 al" id="c_a_1">
 	<div class="genre" >
 		<div class="name_genre">
 			<h1>
@@ -610,7 +594,23 @@ s
 </div>
 <!-- ALBUM1 -->
 
+<div class="logo_content-1">
+	<div class="genre">
+		<div class="name_genre">
+			<a href="" `>
+				<h1>MORE</h1>
+			</a>
+		</div>
 
+	</div>
+	<div class="genre_info">
+		<div class="info">
+			<button class=" btn_more">CLICK HERE</button>
+		</div>
+	</div>
+
+
+</div>
 
 <? include_once "m_footer.php"; ?>
 </body>

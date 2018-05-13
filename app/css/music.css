@@ -34,7 +34,7 @@ a {
   display: flex;
   justify-content: center; }
   .genre h1 {
-    font-size: 50px; }
+    font-size: 30px; }
 
 .genre_info {
   display: flex;
@@ -43,11 +43,6 @@ a {
 .albums_box {
   display: flex;
   flex-direction: column; }
-
-.img_box {
-  width: 200px; }
-  .img_box img {
-    width: 100%; }
 
 .info_box {
   display: flex;
@@ -86,10 +81,9 @@ a {
   position: absolute;
   top: 5110px; }
 
-.genre {
-  margin-top: 5%; }
-
 .logo_content-1 {
+  margin-top: 1%;
+  margin-bottom: 1%;
   padding: 1px; }
   .logo_content-1 a {
     color: black; }
@@ -102,17 +96,19 @@ a {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  color: white; }
+  color: white;
+  margin-bottom: 1%; }
 
 .genre_info h3 {
   border-bottom: 1px solid black; }
 
 .content-2 {
-  background-image: url("../img/44.jpg");
+  background-image: url("../img/bgcf3.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  color: white; }
+  color: white;
+  margin-bottom: 1%; }
 
 .btn_more {
   color: white;
@@ -125,6 +121,9 @@ a {
     transition: 0.5s linear;
     background-color: #fff;
     border: solid white; }
+
+.al {
+  margin-bottom: 1%; }
 
 .content_album3 {
   display: none;
@@ -221,7 +220,7 @@ ul.main-menu > li:hover ul.sub-menu {
 
 .content_album2 {
   display: none;
-  background-image: url("../img/album_img/4.jpg");
+  background-image: url("../img//bgcf5.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -261,3 +260,8 @@ footer {
   font-size: 1.3vmin; }
 
 /*FOOTER */
+.img_box img {
+  width: 200px; }
+
+.img_box img {
+  height: 200px; }

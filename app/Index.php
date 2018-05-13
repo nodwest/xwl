@@ -50,7 +50,7 @@
 
             else if (!r.test(email)){
 
-                p.innerHTML = "GOOD JOB KID";
+                p.innerHTML = "PLEASE ENTER A VALID EMAIL ADDRESS";
             }  
             else {
                 document.getElementById('form_valid12').style.display="block";
@@ -61,9 +61,8 @@
 
     </script>
 
-<div class="logo_container">
     <div class="logo"><h1>X W L</h1></div>
-</div>
+
     <div class="thank_u" id="thu">
         <h3>THANK YOU</h3>
     </div>
