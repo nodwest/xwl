@@ -10,7 +10,6 @@ function valid_form_signup(){
 	var email12 = document.getElementById('em').value;
 	var fall = true;
 	document.getElementById('emaaail1').value = email12;
-	alert(document.getElementById('emaaail1').value);
 
 	if (!ps.value || ps.value == " ") {
 			ps.style.border = "1px solid red";
@@ -84,17 +83,15 @@ document.getElementById('b_wrap').style.display = "block";
 
 			$("#ajax_form").click(function(){
 				$.ajax({
-					url: "include/database.php",
+					url: "include/functions.php",
 					type: "POST",
 					data:danie,
 					success: function(data) {
-
+						
 					}
 					
 			});
 			});
-
-
 
 		}
 

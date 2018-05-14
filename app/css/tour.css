@@ -76,7 +76,7 @@ footer {
 
 .country-city {
   flex-grow: 4;
-  min-width: 515px; }
+  width: 550px; }
 
 .place {
   flex-grow: 2;

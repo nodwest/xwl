@@ -12,7 +12,7 @@
     <div class="column_top"><a href="/app/pages/music.php">
             <h3>MUSIC</h3>
         </a></div>
-    <div class="column_top"><a href="">
+    <div class="column_top"><a href="/app/pages/videos.php">
             <h3>VIDEOS</h3>
         </a></div>
     <div class="column_top"><a href="/app/pages/tour.php">

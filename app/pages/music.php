@@ -9,6 +9,7 @@
 	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="../css/music.css">
 	<link rel="stylesheet" href="../css/top_menu_formusic.css">
+	<script src="../js/jquery.min.js"></script>
 
 </head>
 
@@ -50,7 +51,7 @@ s
 			<div class="genre">
 				<div class="name_genre">
 					<h1>
-						<h1>SINGLE TRACKS</h1>
+						<h1>LAST TRACKS</h1>
 					</h1>
 				</div>
 			</div>
@@ -120,7 +121,7 @@ s
 			<div class="genre">
 				<div class="name_genre">
 					<h1>
-						<h1>ALBUMS</h1>
+						<h1> LAST ALBUMS</h1>
 					</h1>
 				</div>
 			</div>

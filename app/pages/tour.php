@@ -11,10 +11,9 @@
 	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="../css/top_menu_formusic.css">
 	<link rel="stylesheet" href="../css/tour.css">
-	<title>Document</title>
+	<title>TOUR</title>
 </head>
 <body>
-<? 	var_dump($result); ?>
 	<? include_once 'top_menu.php' ?>
 
 	<div class="logo">

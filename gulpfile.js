@@ -32,4 +32,3 @@ gulp.task('watch', ['browser-sync', 'sass'], function() {
 	gulp.watch('app/pages/*.php', browserSync.reload); // Наблюдение за HTML файлами в корне проекта
 	gulp.watch('app/js/**/*.js', browserSync.reload); // Наблюдение за JS файлами в папке js
 });
-

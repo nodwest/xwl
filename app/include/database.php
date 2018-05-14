@@ -11,8 +11,4 @@
 	$country = trim($_POST['country1']);
 	$mounth = trim($_POST['mounth1']);
 	$email = $_POST['email'];
-	// ВСТАВКА В БАЗУ ДАННЫХ;
-	$query = "INSERT INTO users VALUES('$firstname','$postal_code','$country','$mounth','$date','$email')";
-	$mysqli->query($query);
-
 ?>
