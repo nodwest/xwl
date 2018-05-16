@@ -61,7 +61,6 @@ date.style.border = "1px solid white";
 if (checkbox.checked){
 alert("Osas");
 }
-
 if (fall == true) {
 ty();
 }
@@ -87,7 +86,7 @@ document.getElementById('b_wrap').style.display = "block";
 					type: "POST",
 					data:danie,
 					success: function(data) {
-						
+				
 					}
 					
 			});
@@ -97,3 +96,27 @@ document.getElementById('b_wrap').style.display = "block";
 
 
 
+		var r = /^\w+@\w+\.\w{2,4}$/i; 
+        
+
+
+		function yea() {
+				var email, p, r;
+				r = /^\w+@\w+\.\w{2,4}$/i;
+				var danie = $("#form1").serialize();
+				email = document.getElementById('em').value;
+				p = document.getElementById('vivod');
+				if ( !email)  {
+						p.innerHTML = "EMAIL ADDRESS IS REQUIRED";
+				}
+
+				else if (!r.test(email)){
+
+						p.innerHTML = "PLEASE ENTER A VALID EMAIL ADDRESS";
+				}  
+				else {
+						document.getElementById('form_valid12').style.display="block";
+						document.getElementById("form1").style.display="none";
+						document.getElementById("b_wrap").style.display="none";
+				}
+		}

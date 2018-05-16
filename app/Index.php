@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="css/top_menu_formusic.css">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <script src="js/jquery.backgroundvideo.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
    
@@ -19,49 +21,28 @@
 <? include_once "pages/top_menu.php"; ?>
 
 
-    <script type="text/javascript">
-        var r = /^\w+@\w+\.\w{2,4}$/i; 
-        
 
 
-        function yea() {
-            var email, p, r;
-            r = /^\w+@\w+\.\w{2,4}$/i;
-            var danie = $("#form1").serialize();
+<div class= id="ls" "logo_slider">
 
-// $("#form1").click(function(){
-//     $.ajax({
-//         url: "include/database.php",
-//         type: "POST",
-//         data:danie,
-//         success: function(data) {
-
-//         }
-        
-// });
-// });
+sadad
 
 
-            email = document.getElementById('em').value;
-            p = document.getElementById('vivod');
-            if ( !email)  {
-                p.innerHTML = "EMAIL ADDRESS IS REQUIRED";
-            }
 
-            else if (!r.test(email)){
+</div>
 
-                p.innerHTML = "PLEASE ENTER A VALID EMAIL ADDRESS";
-            }  
-            else {
-                document.getElementById('form_valid12').style.display="block";
-                document.getElementById("form1").style.display="none";
-                document.getElementById("b_wrap").style.display="none";
-            }
-        }
-
-    </script>
-
-    <div class="logo"><h1>X W L</h1></div>
+<script>
+    $(document).ready(function() {
+      var videobackground = new $.backgroundVideo($('body'), {
+        "align": "centerXY",
+        "width": 1280,
+        "height": 720,
+        "path": "media/",
+        "filename": "xwl",
+        "types": ["mp4","ogg","webm"]
+      });
+    });
+  </script>
 
     <div class="thank_u" id="thu">
         <h3>THANK YOU</h3>

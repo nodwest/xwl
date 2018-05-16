@@ -2,17 +2,21 @@
 
 
 
-var bttn = document.getElementById('bt_play');
-var audio = new Audio();
-audio.src = '../222.mp3';
 
-function music_play() {
-
-
-	if (audio.paused == true) {
+ 	var audio = new Audio();
+function music_play(b,c) {
+	c = ''+ c +'';
+	var bttn = document.getElementById(c);
+	var music;
+	music = "../media/"  + b + ".mp3";
+	audio.src = music;
+	
+	 if (audio.paused == true) {
 		audio.play();
 		bttn.textContent = "STOP";
-	} else if (audio.paused == false) {
+	} 
+
+	else if (audio.played == true) {
 		audio.pause();
 		bttn.textContent = "PLAY";
 	}
@@ -66,15 +70,68 @@ function show_album1(){
 		
 }	
 
-function a_play_music() {
-	if(audio.paused == true){
-		document.getElementById('a_btn1').innerHTML = '<i class="far fa-pause-circle"></i>';
-		audio.play();
+
+function a_play_music1(a) {
+	var name =[], track;
+	
+	name[0] = "Slow Decay";
+	name[1] = "Oblivion";
+	name[2] = "Embris";
+	name[3] = "Flying Roofs";
+ 
+	
+
+	for(var i=0;i< name.length; i++){
+		if (name[i] == a) {
+			track = i;
+		}
 	}
-	else if (audio.paused == false) {
-		audio.pause();
-		document.getElementById('a_btn1').innerHTML = '<i class="fas fa-play-circle"></i>';
+	$music = "../media/"  + name[track] + ".mp3"; 
+
+	$('#a_p3').attr('src', $music );
+
+}
+
+function a_play_music2(a) {
+	var name =[], track;
+	
+	name[0] = "Structure";
+	name[1] = "Distortion";
+	name[2] = "World";
+	name[4] = "Particles";
+ 
+	
+
+	for(var i=0;i< name.length; i++){
+		if (name[i] == a) {
+			track = i;
+		}
 	}
+	$music = "../media/"  + name[track] + ".mp3"; 
+
+	$('#a_p2').attr('src', $music );
+
+}
+
+function a_play_music3(a) {
+	var name =[], track;
+	
+	name[0] = "Core";
+	name[1] = "Observatory";
+	name[2] = "Black Water";
+	name[4] = "Outline";
+ 
+	
+
+	for(var i=0;i< name.length; i++){
+		if (name[i] == a) {
+			track = i;
+		}
+	}
+	$music = "../media/"  + name[track] + ".mp3"; 
+
+	$('#a_p1').attr('src', $music );
+
 }
 
 function scroll(){

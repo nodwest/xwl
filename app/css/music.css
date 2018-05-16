@@ -220,7 +220,7 @@ ul.main-menu > li:hover ul.sub-menu {
 
 .content_album2 {
   display: none;
-  background-image: url("../img//bgcf5.jpg");
+  background-image: url("../img/bgi2.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -230,7 +230,7 @@ ul.main-menu > li:hover ul.sub-menu {
 
 .content_album1 {
   display: none;
-  background-image: url("../img/album_img/3.jpg");
+  background-image: url("../img/bgi3.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -267,12 +267,24 @@ footer {
 .img_box img {
   height: 200px; }
 
-.vi_conteiner {
+.track_list {
+  display: flex;
+  width: 800px;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
+.track {
+  min-width: 400px;
   display: flex;
   justify-content: center;
-  margin-top: 5%; }
+  margin-top: 2%; }
 
-.vi_wrap {
-  width: 80%;
+.audio_mp {
   display: flex;
   justify-content: center; }
+
+.track label:hover {
+  cursor: pointer; }
+
+#a_p3 {
+  background-color: black; }
