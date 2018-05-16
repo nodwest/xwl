@@ -29,19 +29,14 @@ a {
   display: none;
   margin-bottom: 11.7%; }
 
-.sign {
-  margin-left: 30%;
-  margin-top: 15%;
-  font-size: 1.5vmin; }
-  .sign h3 {
-    word-spacing: 10px; }
+.sign h3 {
+  word-spacing: 10px; }
 
 .input_s {
   background: rgba(0, 0, 0, 0.7);
   width: 200px;
   height: 15px;
   padding: 4px;
-  font-size: 2vmin;
   border: solid 0.1px;
   text-align: center; }
 
@@ -50,7 +45,6 @@ a {
   height: 25px;
   color: black;
   width: 60px;
-  font-size: 2vmin;
   border: none 0.1px;
   background-color: #fff; }
   .submit_button:hover {
@@ -71,34 +65,29 @@ a {
 /*BOTTTOM */
 .bottom_wrap {
   margin-top: 8%;
-  margin-left: 40%;
   margin-bottom: 5%; }
 
 .block1 {
   display: inline-block;
   width: 144px;
   height: 144px;
-  font-size: 2vmin;
   border: solid 3px; }
 
 .block2 {
   display: inline-block;
   height: 150px;
   width: 150px;
-  font-size: 2vmin;
   margin-left: 10px;
   vertical-align: top; }
   .block2 button {
     height: 25px;
     color: black;
     width: 150px;
-    font-size: 2vmin;
     border: none 0.1px;
     background-color: #fff; }
 
 .name_album {
   margin-top: 105px;
-  font-size: 1.7vmin;
   text-align: center; }
 
 .main-menu {
@@ -402,3 +391,26 @@ footer {
     color: black;
     border: solid 0px white;
     transition: 0.5s linear; }
+
+.content_form_sign {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+.form_last_album_wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%; }
+
+.form_last_album {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  margin-right: 10%; }
+
+.form_signup_wrap {
+  display: flex;
+  justify-content: center; }
+
+.form_signup {
+  width: 70%;
+  margin-left: 10%; }

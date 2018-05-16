@@ -140,64 +140,69 @@
             </div>
 
             <div class="logo_about">
-                    <h1>MEMBERS</h1>
+                <h1>MEMBERS</h1>
             </div>
 
             <div class="about_members">
                 <div class="lyth">
                     <img src="img/lyth.jpg" alt="">
                     <div class="mem_buttons">
-                            <button class="m_bt_1">LYTH</button>
-                            <button class="m_bt_2">COMPOSER</button>
-                    </div>        
+                        <button class="m_bt_1">LYTH</button>
+                        <button class="m_bt_2">COMPOSER</button>
+                    </div>
                 </div>
 
                 <div class="roxfusion">
                     <img src="img/rox.jpg" alt="">
                     <div class="mem_buttons">
-                            <button class="m_bt_1">沢口乂 </button>
-                            <button class="m_bt_2">CREATIVE ASSISTANS</button>
-                    </div>  
-                </div>
-         
-            </div>
-
-
-                <div class="about_video_wrap">
-
-                    <div class="about_video">
-                        <iframe width="800px" height="400px" src="https://www.youtube.com/embed/xApldi2rbk8" frameborder="0" allow="autoplay; encrypted-media"
-                            allowfullscreen></iframe>
+                        <button class="m_bt_1">沢口乂 </button>
+                        <button class="m_bt_2">CREATIVE ASSISTANS</button>
                     </div>
                 </div>
+
             </div>
 
-            <div class="content_form">
 
+            <div class="about_video_wrap">
+
+                <div class="about_video">
+                    <iframe width="800px" height="400px" src="https://www.youtube.com/embed/xApldi2rbk8" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="content_form_sign">
                 <div class="thank_u" id="thu">
-                    <h3>THANK YOU</h3>
-                </div>
-                <form id="form1" action="" method="post">
-                    <div class="sign">
-                        <h3>STAY UP TO DATE WITH </h3>
-                        <h3> L Y T H. SIGN UP BELOW</h3>
-                        <input class="input_s" type="text" placeholder=" INTER EMAIL" id="em">
-                        <input class="submit_button" type="button" value="JOIN" onclick="yea()">
-                        <div id="falls_email">
-                            <p id="vivod"> </p>
-                        </div>
-
+                        <h3>THANK YOU</h3>
                     </div>
+        <div class="form_signup_wrap">
 
-
-
-                </form>
-
-                <div class="bottom_wrap" id="b_wrap">
+       
+            <div class="form_signup">
+                    <form id="form1" action="" method="post">
+                            <div class="sign">
+                                <h3>STAY UP TO DATE WITH </h3>
+                                <h3> L Y T H. SIGN UP BELOW</h3>
+                                <input class="input_s" type="text" placeholder=" INTER EMAIL" id="em">
+                                <input class="submit_button" type="button" value="JOIN" onclick="yea()">
+                                <div id="falls_email">
+                                    <p id="vivod"> </p>
+                                </div>
+        
+                            </div>
+        
+        
+        
+                        </form>
+                    
+            </div>
+        </div>
+            <div class="form_last_album_wrap">
+            <div class="form_last_album">
                     <div class="block1">
                         <img src="img/spase_al.jpg" width="100%" height="100%" alt="">
                     </div>
-
                     <div class="block2">
                         <div class="name_album">
                             <h3> LAST ALBUM </h3>
@@ -226,8 +231,12 @@
                             </li>
                         </ul>
                     </div>
+                </div>
+            </div>
+            </div>
 
-
+            <div class="content_form">
+                <div class="bottom_wrap" id="b_wrap">
                 </div>
             </div>
 

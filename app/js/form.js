@@ -86,6 +86,7 @@ document.getElementById('b_wrap').style.display = "block";
 					type: "POST",
 					data:danie,
 					success: function(data) {
+
 				
 					}
 					
@@ -117,6 +118,5 @@ document.getElementById('b_wrap').style.display = "block";
 				else {
 						document.getElementById('form_valid12').style.display="block";
 						document.getElementById("form1").style.display="none";
-						document.getElementById("b_wrap").style.display="none";
 				}
 		}
