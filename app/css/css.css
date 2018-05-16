@@ -7,11 +7,11 @@
   font-weight: normal; }
 
 body {
-  background-image: url("../img/bgcimg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-color: #000; }
 
 a {
   text-decoration: none; }
@@ -267,3 +267,100 @@ footer {
 
 .logo_slider {
   width: 100%; }
+
+.content_form {
+  display: block; }
+
+.homepage-hero-module {
+  border-right: none;
+  border-left: none;
+  position: relative;
+  height: 500px;
+  width: 100%; }
+
+.no-video .video-container video, .touch .video-container video {
+  display: none; }
+
+.no-video .video-container .poster, .touch .video-container .poster {
+  display: block !important; }
+
+.video-container {
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #000; }
+  .video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute; }
+  .video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%; }
+  .video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0; }
+    .video-container video.fillWidth {
+      width: 100%; }
+
+.logo_container {
+  margin-top: 2%;
+  width: 100%;
+  z-index: 1000;
+  position: absolute; }
+  .logo_container h1 {
+    font-size: 80px; }
+
+.logo_xwl {
+  display: flex;
+  justify-content: center; }
+
+.tex_video_wrap {
+  width: 40%;
+  z-index: 1000;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 20%; }
+
+.text_video {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2%; }
+
+.btn_more {
+  color: black;
+  border: none 0.1px;
+  background-color: white;
+  width: 350px; }
+  .btn_more:hover {
+    background-color: black;
+    color: white;
+    border: solid 0.1px black;
+    transition: 0.5s linear; }
+    .btn_more:hover h1 {
+      color: white; }
+  .btn_more h1 {
+    color: black; }
+
+.logo_about {
+  display: flex;
+  justify-content: center; }
+
+.about_text_wrap {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center; }
+
+.about_text {
+  width: 80%; }
+
+.about_video_wrap {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center; }

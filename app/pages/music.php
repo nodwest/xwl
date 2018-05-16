@@ -21,7 +21,6 @@
 	<? include_once "top_menu.php"; ?>
 
 		<div class="slider">
-			s
 		</div>
 
 		<div class="logo_content-1">
