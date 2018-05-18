@@ -14,6 +14,7 @@
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="js/jquery.backgroundvideo.min.js"></script>
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 
@@ -125,62 +126,95 @@
         </script>
 
         <div class="content_about">
-            <div class="logo_about">
+            <!-- <div class="logo_about">
                 <h1>ABOUT XWL</h1>
-            </div>
+            </div> -->
 
-            <div class="about_text_wrap">
-                <div class="about_text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad fuga molestiae omnis voluptatibus corrupti. Corporis aperiam
-                    rerum necessitatibus, omnis quidem a, corrupti aspernatur facere temporibus cum mollitia quasi obcaecati
-                    soluta? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi voluptatum expedita nobis aperiam,
-                    necessitatibus laudantium. Similique nulla, hic dolore quia neque enim asperiores iste dolor ipsa tenetur.
-                    Veritatis, eos ut?
-                </div>
-            </div>
+            <div class="about_text_wrap1">
+                <div class="about_text_wrap">
 
-            <div class="logo_about">
-                <h1>MEMBERS</h1>
-            </div>
-
-            <div class="about_members">
-                <div class="lyth">
-                    <img src="img/lyth.jpg" alt="">
-                    <div class="mem_buttons">
-                        <button class="m_bt_1">LYTH</button>
-                        <button class="m_bt_2">COMPOSER</button>
+                    <!-- <div class="about_text">
+                    Ambient is the style of electronic music, based on the modulations of the sound timbre. Ambient is often characterized by atmospheric, enveloping, unobtrusive, background sound
                     </div>
-                </div>
+                    <div class="about_img">
+                        <img src="img/romb.PNG" alt="">
+                    </div> -->
 
-                <div class="roxfusion">
-                    <img src="img/rox.jpg" alt="">
-                    <div class="mem_buttons">
-                        <button class="m_bt_1">沢口乂 </button>
-                        <button class="m_bt_2">CREATIVE ASSISTANS</button>
-                    </div>
-                </div>
 
+                </div>
             </div>
 
+            <div class="about_text_wrap1">
+                <div class="about_text_wrap">
+                    <div class="about_img">
+                        <img src="img/logo-Ambient.png" alt="">
+                    </div>
 
+                    <div class="about_text">
+                    Nevertheless, ambient music remains an extremely vague term, as thi
+                    s term can be used to describe performers of various other genres, for example
+                    </div>
+
+
+
+                </div>
+            </div>
+                <div class="about_video_wrap1">
             <div class="about_video_wrap">
 
                 <div class="about_video">
-                    <iframe width="800px" height="400px" src="https://www.youtube.com/embed/xApldi2rbk8" frameborder="0" allow="autoplay; encrypted-media"
+                    <iframe src="https://vk.com/video_ext.php?oid=31831006&id=171568650&hash=0917387e9d06d50d" width="825" height="360" frameborder="0"
                         allowfullscreen></iframe>
+                </div>
+  
+            </div>
+
+            <div class="text_video">
+                <a href="pages/videos.php"><button class="btn_more_video"><h1>MORE VIDEO</h1></button> </a>
+            </div>
+
+        </div>
+            <div class="members_img">
+            <div class="logo_about">
+                    <h1>MEMBERS</h1>
+                </div>
+            <div class="about_members_wrap">
+  
+                <div class="about_members">
+                    <div class="lyth">
+                        <img src="img/ly.jpg" alt="">
+                        <div class="mem_buttons">
+                            <button class="m_bt_1">LYTH</button>
+                            <button class="m_bt_2">COMPOSER</button>
+                        </div>
+                    </div>
+
+                    <div class="roxfusion">
+                        <img src="img/rox.jpg" alt="">
+                        <div class="mem_buttons">
+                            <button class="m_bt_1">ROX </button>
+                            <button class="m_bt_2">CREATIVE ASSISTANS</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
 
-        <div class="content_form_sign">
-                <div class="thank_u" id="thu">
+
+
+        </div>
+        <div class="content_form_sign_wrap">
+            <div class="content_form_sign_wrap1">
+
+
+                <div class="content_form_sign">
+
+                    <div class="thank_u" id="thu">
                         <h3>THANK YOU</h3>
                     </div>
-        <div class="form_signup_wrap">
-
-       
-            <div class="form_signup">
-                    <form id="form1" action="" method="post">
+                    <div class="form_signup">
+                        <form id="form1" action="" method="post">
                             <div class="sign">
                                 <h3>STAY UP TO DATE WITH </h3>
                                 <h3> L Y T H. SIGN UP BELOW</h3>
@@ -189,17 +223,17 @@
                                 <div id="falls_email">
                                     <p id="vivod"> </p>
                                 </div>
-        
+
                             </div>
-        
-        
-        
+
+
+
                         </form>
-                    
-            </div>
-        </div>
-            <div class="form_last_album_wrap">
-            <div class="form_last_album">
+
+                    </div>
+                </div>
+
+                <div class="form_last_album">
                     <div class="block1">
                         <img src="img/spase_al.jpg" width="100%" height="100%" alt="">
                     </div>
@@ -233,13 +267,13 @@
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
+        </div>
 
-            <div class="content_form">
-                <div class="bottom_wrap" id="b_wrap">
-                </div>
-            </div>
+        </div>
 
-            <? include_once "pages/form.php"; ?>
+        <? include_once "pages/form.php"; ?>
+        <? include_once "pages/m_footer.php"; ?>
+
 
 </html>

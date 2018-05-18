@@ -12,6 +12,7 @@
 	<script src="../js/jquery.min.js"></script>
 	<link rel="stylesheet" href="../css/style.css">
 	<script src="../js/mediaelement-and-player.min.js"></script>
+	<link rel="stylesheet" href="../css/media.css">
 
 </head>
 

@@ -1,0 +1,11 @@
+@media screen and (max-width: 1280px) {
+  .content_form_sign_wrap1 {
+    width: 65%; } }
+
+@media screen and (max-width: 1280px) {
+  .about_text_wrap {
+    width: 65%; } }
+
+@media screen and (min-width: 1980px) {
+  .slider {
+    height: 500px; } }

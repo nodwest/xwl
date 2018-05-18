@@ -29,6 +29,9 @@ a {
   display: none;
   margin-bottom: 11.7%; }
 
+.sign {
+  margin-left: 2%; }
+
 .sign h3 {
   word-spacing: 10px; }
 
@@ -130,7 +133,6 @@ ul.main-menu > li:hover ul.sub-menu {
     color: black; }
 
 footer {
-  position: absolute;
   width: 100%;
   height: inherit;
   left: 0;
@@ -339,22 +341,58 @@ footer {
 
 .logo_about {
   display: flex;
-  justify-content: center; }
-
-.about_text_wrap {
+  justify-content: center;
   margin-top: 2%;
+  padding: 1px; }
+
+.about_text {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5px; }
+
+.about_text_wrap1 {
   display: flex;
   justify-content: center; }
 
-.about_text {
-  width: 80%; }
+.about_text_wrap {
+  display: flex;
+  justify-content: center;
+  width: 40%; }
+
+.about_img img {
+  width: 200px; }
+
+.about_video_wrap1 {
+  background-image: url("../img/123.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  padding: 1px;
+  margin-top: 1%; }
 
 .about_video_wrap {
   margin-top: 2%;
   display: flex;
   justify-content: center; }
 
+.members_img {
+  background-image: url("../img/glitchart.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  padding: 1px;
+  margin-top: 1%; }
+
+.about_members_wrap {
+  display: flex;
+  justify-content: center; }
+
 .about_members {
+  width: 50%;
   margin-top: 2%;
   display: flex;
   justify-content: center; }
@@ -396,21 +434,40 @@ footer {
   margin-top: 5%;
   margin-bottom: 5%; }
 
-.form_last_album_wrap {
-  display: flex;
-  justify-content: center;
-  margin-top: 4%; }
-
 .form_last_album {
   display: flex;
   justify-content: flex-end;
-  width: 70%;
-  margin-right: 10%; }
+  margin-right: 2%;
+  margin-bottom: 2%; }
 
-.form_signup_wrap {
+.content_form_sign_wrap1 {
+  width: 43%; }
+
+.content_form_sign_wrap {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  background-image: url("../img/index_fon1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 400px; }
 
-.form_signup {
-  width: 70%;
-  margin-left: 10%; }
+.btn_more_video {
+  color: white;
+  border: none 0.1px;
+  background-color: black;
+  width: 350px; }
+  .btn_more_video:hover {
+    background-color: white;
+    color: black;
+    border: solid 0.1px black;
+    transition: 0.5s linear; }
+    .btn_more_video:hover h1 {
+      color: black; }
+  .btn_more_video h1 {
+    color: white; }
