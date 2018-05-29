@@ -72,7 +72,7 @@ ty();
 function ty() {
 document.getElementById('form_valid12').style.display= "none";
 document.getElementById('thu').style.display = "block";
-document.getElementById('b_wrap').style.display = "block";
+document.getElementById("f_l_a").style.display="block";
 
 	// var postal_code = jQuery('.postal_code').val();
 	// var firstname = jQuery('.firstname').val();
@@ -118,5 +118,6 @@ document.getElementById('b_wrap').style.display = "block";
 				else {
 						document.getElementById('form_valid12').style.display="block";
 						document.getElementById("form1").style.display="none";
+						document.getElementById("f_l_a").style.display="none";
 				}
 		}

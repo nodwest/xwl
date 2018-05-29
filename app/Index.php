@@ -45,7 +45,7 @@
                         </div>
                     </div>
                     <div class="filter"></div>
-                    <video autoplay loop class="fillWidth">
+                    <video autoplay loop class="fillWidth" muted="muted">
                         <source src="video/xwl.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
                         <source src="PATH_TO_WEBM" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
                     </video>
@@ -163,7 +163,7 @@
             <div class="about_video_wrap">
 
                 <div class="about_video">
-                    <iframe src="https://vk.com/video_ext.php?oid=31831006&id=171568650&hash=0917387e9d06d50d" width="825" height="360" frameborder="0"
+                    <iframe src="https://vk.com/video_ext.php?oid=31831006&id=171568650&hash=0917387e9d06d50d" width="825" height="360" frameborder="0" volu
                         allowfullscreen></iframe>
                 </div>
   
@@ -205,7 +205,9 @@
 
         </div>
         <div class="content_form_sign_wrap">
+        <? include_once "pages/form.php"; ?>
             <div class="content_form_sign_wrap1">
+          
 
 
                 <div class="content_form_sign">
@@ -233,7 +235,7 @@
                     </div>
                 </div>
 
-                <div class="form_last_album">
+                <div class="form_last_album" id="f_l_a">
                     <div class="block1">
                         <img src="img/spase_al.jpg" width="100%" height="100%" alt="">
                     </div>
@@ -272,7 +274,7 @@
 
         </div>
 
-        <? include_once "pages/form.php"; ?>
+       
         <? include_once "pages/m_footer.php"; ?>
 
 

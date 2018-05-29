@@ -72,6 +72,7 @@ function show_album1(){
 
 
 function a_play_music1(a) {
+	var audio1 = $("#a_p3")[0];
 	var name =[], track;
 	
 	name[0] = "Slow Decay";
@@ -89,11 +90,14 @@ function a_play_music1(a) {
 	$music = "../media/"  + name[track] + ".mp3"; 
 
 	$('#a_p3').attr('src', $music );
+	audio1.play();
+	
 
 }
 
 function a_play_music2(a) {
 	var name =[], track;
+	var audio2 = $("#a_p2")[0];
 	
 	name[0] = "Structure";
 	name[1] = "Distortion";
@@ -110,11 +114,12 @@ function a_play_music2(a) {
 	$music = "../media/"  + name[track] + ".mp3"; 
 
 	$('#a_p2').attr('src', $music );
-
+	audio2.play();
 }
 
 function a_play_music3(a) {
 	var name =[], track;
+	var audio1 = $("#a_p1")[0];
 	
 	name[0] = "Core";
 	name[1] = "Observatory";
@@ -131,6 +136,7 @@ function a_play_music3(a) {
 	$music = "../media/"  + name[track] + ".mp3"; 
 
 	$('#a_p1').attr('src', $music );
+	audio1.play();
 
 }
 
