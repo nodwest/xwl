@@ -82,7 +82,7 @@ document.getElementById("f_l_a").style.display="block";
 
 			$("#ajax_form").click(function(){
 				$.ajax({
-					url: "include/functions.php",
+					url: "/app/include/functions.php",
 					type: "POST",
 					data:danie,
 					success: function(data) {

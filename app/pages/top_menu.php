@@ -2,7 +2,16 @@
 
 <div class="content_top_menu">
 <div class="top_menu">
-    
+<div class="column_top ct-0"><a href="/app/Index.php">
+            
+            
+            <button class="btn_lgn"><h3><i class="fas fa-language"></i></h3></button>
+            <ul class="leguage">
+            <a href="/app/pages/ru/indexru.php"><button> <li>РУССКИЙ</li></button></a>
+            <a href="/app/index.php"><button> <li>ENGLISH</li> </button></a>
+
+            </ul>
+        </a></div>
     <div class="column_top ct-1"><a href="/app/Index.php">
             <h3>XWL</h3>
         </a></div>
@@ -62,5 +71,26 @@
     }
 
 
+ul.leguage {
+  z-index: 9999;
+  position: absolute;
+  background-color: black;
+  width: 50px;
+  display: none;
+  list-style-type: none; }
+
+.ct-0:hover ul.leguage {
+  display: block; }
+
+.ct-0 button {
+  background-color: inherit;
+  border: none ;
+  color: white }
+
+.btn_lgn {
+  font-size: 20px; }
+
+ul.leguage li {
+  margin-top: 2%; }
 
 </style>

@@ -1,5 +1,5 @@
 
- <script src="js/form.js"></script>
+ <script src="/app/js/form.js"></script>
 <!-- Скрытая форма -->
 <div class="background_form" id="form_valid12">
     <div class="forma_sign_valid" >

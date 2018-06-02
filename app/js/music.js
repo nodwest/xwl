@@ -8,7 +8,7 @@ function music_play(b,c) {
 	c = ''+ c +'';
 	var bttn = document.getElementById(c);
 	var music;
-	music = "../media/"  + b + ".mp3";
+	music = "/app/media/"  + b + ".mp3";
 	audio.src = music;
 	
 	 if (audio.paused == true) {
@@ -87,7 +87,7 @@ function a_play_music1(a) {
 			track = i;
 		}
 	}
-	$music = "../media/"  + name[track] + ".mp3"; 
+	$music = "/app/media/"  + name[track] + ".mp3"; 
 
 	$('#a_p3').attr('src', $music );
 	audio1.play();

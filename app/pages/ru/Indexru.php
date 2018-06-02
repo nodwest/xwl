@@ -6,20 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>XWL</title>
 
-    <link rel="stylesheet" href="css/css.css">
-    <link rel="stylesheet" href="css/top_menu_formusic.css">
+    <link rel="stylesheet" href="../../css/css.css">
+    <link rel="stylesheet" href="../../css/top_menu_formusic.css">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="js/jquery.backgroundvideo.min.js"></script>
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="../../css/media.css">
 </head>
 
 
 <body>
-    <? include_once "pages/top_menu.php"; ?>
+    <? include_once "top_menuru.php"; ?>
         <div class="content_start">
             <div class="homepage-hero-module">
                 <div class="video-container">
@@ -35,18 +34,18 @@
 
                         </div>
                         <div class="text_video">
-                            <h1>LOAD IT TO MY WORLD</h1>
+                            <h1>Окунись в мир музыки</h1>
                         </div>
 
                         <div class="text_video">
                             <button class="btn_more">
-                                <h1>WATCH MORE</h1>
+                                <h1> Смотреть больше</h1>
                             </button>
                         </div>
                     </div>
                     <div class="filter"></div>
                     <video autoplay loop class="fillWidth" muted="muted">
-                        <source src="video/xwl.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                        <source src="../../video/xwl.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
                         <source src="PATH_TO_WEBM" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
                     </video>
                     <div class="poster hidden">
@@ -147,12 +146,12 @@
             <div class="about_text_wrap1">
                 <div class="about_text_wrap">
                     <div class="about_img">
-                        <img src="img/logo-Ambient.png" alt="">
+                        <img src="../../img/logo-Ambient.png" alt="">
                     </div>
 
                     <div class="about_text">
-                    Nevertheless, ambient music remains an extremely vague term, as thi
-                    s term can be used to describe performers of various other genres, for example
+                    Ambient — жанр электронной музыки, основанный на модуляциях звукового тембра.
+Эмбиент часто характеризуют атмосферным, обволакивающим, фоновым звучанием. 
                     </div>
 
 
@@ -169,30 +168,30 @@
             </div>
 
             <div class="text_video">
-                <a href="pages/videos.php"><button class="btn_more_video"><h1>MORE VIDEO</h1></button> </a>
+                <a href="../../pages/videos.php"><button class="btn_more_video"><h1>Больше видео </h1></button> </a>
             </div>
 
         </div>
             <div class="members_img">
             <div class="logo_about">
-                    <h1>MEMBERS</h1>
+                    <h1>Участники</h1>
                 </div>
             <div class="about_members_wrap">
   
                 <div class="about_members">
                     <div class="lyth">
-                        <img src="img/ly.jpg" alt="">
+                        <img src="../../img/ly.jpg" alt="">
                         <div class="mem_buttons">
                             <button class="m_bt_1">LYTH</button>
-                            <button class="m_bt_2">COMPOSER</button>
+                            <button class="m_bt_2">Композитор</button>
                         </div>
                     </div>
 
                     <div class="roxfusion">
-                        <img src="img/rox.jpg" alt="">
+                        <img src="../../img/rox.jpg" alt="">
                         <div class="mem_buttons">
                             <button class="m_bt_1">ROX </button>
-                            <button class="m_bt_2">CREATIVE ASSISTANS</button>
+                            <button class="m_bt_2">Креативный помощник</button>
                         </div>
                     </div>
 
@@ -204,7 +203,7 @@
 
         </div>
         <div class="content_form_sign_wrap">
-        <? include_once "pages/form.php"; ?>
+        <? include_once "../form.php"; ?>
             <div class="content_form_sign_wrap1">
           
 
@@ -212,15 +211,15 @@
                 <div class="content_form_sign">
 
                     <div class="thank_u" id="thu">
-                        <h3>THANK YOU</h3>
+                        <h3>Спасибо вам</h3>
                     </div>
                     <div class="form_signup">
                         <form id="form1" action="" method="post">
                             <div class="sign">
-                                <h3>STAY UP TO DATE WITH </h3>
-                                <h3> L Y T H. SIGN UP BELOW</h3>
+                                <h3>Оставайтесь с </h3>
+                                <h3> L Y T H. подпишитесь ниже</h3>
                                 <input class="input_s" type="text" placeholder=" INTER EMAIL" id="em">
-                                <input class="submit_button" type="button" value="JOIN" onclick="yea()">
+                                <input class="submit_button" type="button" value="Войти" onclick="yea()">
                                 <div id="falls_email">
                                     <p id="vivod"> </p>
                                 </div>
@@ -236,15 +235,15 @@
 
                 <div class="form_last_album" id="f_l_a">
                     <div class="block1">
-                        <img src="img/spase_al.jpg" width="100%" height="100%" alt="">
+                        <img src="../../img/spase_al.jpg" width="100%" height="100%" alt="">
                     </div>
                     <div class="block2">
                         <div class="name_album">
-                            <h3> LAST ALBUM </h3>
+                            <h3> Последний альбом </h3>
                         </div>
                         <ul class="main-menu">
                             <li>
-                                <button> GET IT NOW</button>
+                                <button> Получить</button>
 
                                 <ul class="sub-menu">
                                     <li>
@@ -274,7 +273,7 @@
         </div>
 
        
-        <? include_once "pages/m_footer.php"; ?>
+        <? include_once "../m_footer.php"; ?>
 
 
 </html>
